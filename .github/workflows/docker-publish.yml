@@ -41,7 +41,7 @@ jobs:
         uses: docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a
         with:
           context: .
-          tags: ${{ secrets.DOCKER_USER }}/pihole:latest
+          tags: pihole:latest
 
 
       # Sign the resulting Docker image digest except on PRs.
