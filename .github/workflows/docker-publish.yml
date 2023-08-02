@@ -42,6 +42,7 @@ jobs:
         with:
           context: .
           tags: pihole:latest
+          push: true
 
 
       # Sign the resulting Docker image digest except on PRs.
